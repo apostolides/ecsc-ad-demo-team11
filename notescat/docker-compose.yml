@@ -7,5 +7,6 @@ services:
       dockerfile: Dockerfile
     ports:
       - 4242:4242
+    restart: always
     volumes:
       - ./files:/opt/app/files
